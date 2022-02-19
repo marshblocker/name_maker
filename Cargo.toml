@@ -1,11 +1,11 @@
 [package]
-name = "random_names"
+name = "name_generator"
 description = "Generates random name for a person or a group of person."
 version = "0.1.0"
 edition = "2021"
 authors = ["Gabriel Kenneth L. Marinas <gabrielkennethmarinas@gmail.com>"]
 keywords = ["utility", "tool", "library", "random", "id"]
-repository = "https://github.com/marshblocker/random_names"
+repository = "https://github.com/marshblocker/name_generator"
 license = "MIT"
 
 [dependencies]
