@@ -21,8 +21,8 @@ pub struct NameBank<'a> {
 /// 
 /// # Example
 /// ```
-/// use name_generator::RandomNameGenerator;
-/// use name_generator::Gender;
+/// use name_maker::RandomNameGenerator;
+/// use name_maker::Gender;
 /// 
 /// let rng = RandomNameGenerator::init();
 /// 
@@ -215,7 +215,7 @@ impl<'a> RandomNameGenerator<'a> {
     /// 
     /// # Example
     /// ```
-    /// use name_generator::RandomNameGenerator;
+    /// use name_maker::RandomNameGenerator;
     /// 
     /// let default = RandomNameGenerator::generate_default_name();
     /// 

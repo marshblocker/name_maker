@@ -1,16 +1,16 @@
-# name_generator
+# name_maker
 Generates name for a random person, a group of people, or a family.
 
 ## Install
 Add the following line below the Dependency section in your Cargo.toml file:
 ```
-name_generator = "0.1.0"
+name_maker = "0.1.0"
 ```
 
 ## Usage
 ```rust
-use name_generator::RandomNameGenerator;
-use name_generator::Gender;
+use name_maker::RandomNameGenerator;
+use name_maker::Gender;
 
 let rng = RandomNameGenerator::init();
 
@@ -35,7 +35,7 @@ let family = rng.generate_family(3);
 // in the family. In this example, the family have 5 boys and 1 girl.
 let good_luck_courting_her = rng.generate_family_specific(5, 1);
 ```
-For more info, visit the [Cargo page](https://crates.io/crates/name_generator) to 
+For more info, visit the [Cargo page](https://crates.io/crates/name_maker) to 
 view the official documentation.
 
 ## Credits
