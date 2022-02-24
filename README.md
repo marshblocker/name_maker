@@ -1,10 +1,13 @@
 # name_maker
 Generates name for a random person, a group of people, or a family.
 
+## What's new with Version 0.1.1
+Added command-line support.
+
 ## Install
 Add the following line below the Dependency section in your Cargo.toml file:
 ```
-name_maker = "0.1.0"
+name_maker = "0.1.1"
 ```
 
 ## Usage
@@ -36,6 +39,18 @@ let family = rng.generate_family(3);
 let good_luck_courting_her = rng.generate_family_specific(5, 1);
 ```
 For more info, visit the [official API documentation](https://docs.rs/name_maker/0.1.0).
+
+## Command-line Support
+All the library's functionalities can be called directly from the command-line. Just
+install its binary executable using `cargo install name_maker`, and run `name_maker -h`
+to see the different options for executing the command:
+
+```
+USAGE:
+        name_maker [amount]
+        name_maker -m|--male|-f|--female [amount]
+        name_maker -M|--many|-F|--family [amount|male_amount female_amount]
+```
 
 ## Credits
 * First name data (both male and female) from [Mark Kantrowitz](https://www.cs.cmu.edu/afs/cs/Web/Groups/AI/areas/nlp/corpora/names/male.txt).
