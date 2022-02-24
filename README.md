@@ -35,8 +35,7 @@ let family = rng.generate_family(3);
 // in the family. In this example, the family have 5 boys and 1 girl.
 let good_luck_courting_her = rng.generate_family_specific(5, 1);
 ```
-For more info, visit the [Cargo page](https://crates.io/crates/name_maker) to 
-view the official documentation.
+For more info, visit the [official API documentation](https://docs.rs/name_maker/0.1.0).
 
 ## Credits
 * First name data (both male and female) from [Mark Kantrowitz](https://www.cs.cmu.edu/afs/cs/Web/Groups/AI/areas/nlp/corpora/names/male.txt).
