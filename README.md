@@ -47,6 +47,7 @@ to see the different options for executing the command:
 
 ```
 USAGE:
+        name_maker -h|--help
         name_maker [amount]
         name_maker -m|--male|-f|--female [amount]
         name_maker -M|--many|-F|--family [amount|male_amount female_amount]

@@ -163,6 +163,7 @@ fn generate_many_quick(amount: u32, rng: &RandomNameGenerator) {
 
 fn print_command_usage() {
     println!("USAGE:");
+    println!("\tname_maker -h|--help");
     println!("\tname_maker [amount]");
     println!("\tname_maker -m|--male|-f|--female [amount]");
     println!("\tname_maker -M|--many|-F|--family [amount|male_amount female_amount]");
