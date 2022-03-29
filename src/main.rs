@@ -1,9 +1,4 @@
 //! Command-line version of the library.
-//! 
-//! Entering `name_generator -h` will output the help command:
-//! ```
-//! name_generator
-//! ```
 
 use std::env;
 
